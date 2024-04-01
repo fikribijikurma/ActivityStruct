@@ -14,7 +14,7 @@ struct Mahasiswa {
 };
 int main()
 {
-    Ma
+    Mahasiswa mhs[3];
 }
 
 
