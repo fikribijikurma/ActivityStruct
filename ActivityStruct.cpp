@@ -15,6 +15,7 @@ struct Mahasiswa {
 int main()
 {
     Mahasiswa mhs[3];
+    for (int 1=0,)
 }
 
 
