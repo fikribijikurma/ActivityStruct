@@ -39,7 +39,7 @@ int main()
         cout << "\n Alamat : ";
         cout << "\n \t Desa : " << mhs[i].alamat.desa;
         cout << "\n \t kota : " << mhs[i].alamat.kota;
-        cout << "\n umur : " << mhs[i].alamat.umur;
+        cout << "\n umur : " << mhs[i].umur;
     }
 }
 
