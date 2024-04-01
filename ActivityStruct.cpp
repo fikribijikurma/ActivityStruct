@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-struct DetailAlamat {
+Struct DetailAlamat{
 
-};
+}
 int main()
 {
     std::cout << "Hello World!\n";
