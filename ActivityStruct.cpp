@@ -20,7 +20,9 @@ int main()
         cout << "Nomor Mahasiswa : ";
         getline(cin, mhs[i].nim);
         cout << "Nama Mahasiswa : ";
-        getline(cin,mhs[1])
+        getline(cin, mhs[i].nama);
+
+
     }
 }
 
