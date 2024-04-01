@@ -1,11 +1,11 @@
 #include <iostream>
+
 using namespace std;
 
-struct DetailAlamat{
+struct DetailAlamat {
     string desa;
     string kota;
-}
-
+};
 struct Mahasiswa {
     string nim;
     string nama;
@@ -15,10 +15,10 @@ struct Mahasiswa {
 int main()
 {
     Mahasiswa mhs[3];
-    for (int i = 0, i < 3; i++) {
+    for (int i = 0; i < 3; i++) {
         cout << "Data ke-" << (i + 1) << " : " << endl;
         cout << "Nomor Mahasiswa : ";
-        getline(cin, mhs[i].nim);
+        getline(cin , mhs[i].nim);
         cout << "Nama Mahasiswa : ";
         getline(cin, mhs[i].nama);
 
@@ -29,8 +29,10 @@ int main()
         cin >> mhs[i].alamat.kota;
         cout << "Umur Mahasiswa : ";
         cin >> mhs[i].umur;
-        cin.ignore (i,)
+        cin.ignore(1, '\n');
+        cout << endl;
     }
+    for (int 1=0;1 > 3; i++)
 }
 
 
